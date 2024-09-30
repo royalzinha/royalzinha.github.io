@@ -73,12 +73,6 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-a:hover {
-    background-color: rgb(69, 55, 158);
-    color: white;
-    transition: all;
-    transition-duration: 0.3s;
-}
 
 .twitch {
     background-color: white;
@@ -93,3 +87,24 @@ a:hover {
     text-decoration: none;
 }
 
+.github {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: slateblue;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+
+a:hover {
+    background-color: rgb(69, 55, 158);
+    color: white;
+    transition: all;
+    transition-duration: 0.3s;
+    scale: 110%;
+}
